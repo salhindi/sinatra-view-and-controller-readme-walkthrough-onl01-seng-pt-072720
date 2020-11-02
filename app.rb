@@ -12,10 +12,7 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get '/friends' do
-    # Write your code here!
-
-  end
+ 
   
   # get "/" do
   #   @user = "Ian"
