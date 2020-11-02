@@ -26,4 +26,10 @@ class App < Sinatra::Base
   get "/profile" do
     erb :profile # @user will be nil here
   end
+  
+  get '/friends' do
+    @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+ 
+    erb :friends
+  end
 end
